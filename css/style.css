@@ -1,0 +1,265 @@
+/*common start*/
+body{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 35px 0;
+/*	border: 1px solid red;*/
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 4px;
+	width: 13%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	margin: 0;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+    margin: 0px 50px;
+    padding: 4px 1px;
+    display: inline-block;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    ;
+    transition: .33s;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*gateway start*/
+
+.gateway{
+	padding: 100px 0 40px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+/*	border: 1px solid;*/
+    overflow: hidden;
+            
+}
+.light{
+	margin: 0px 0;
+	font-family:'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.title{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.text{
+	margin: 0;
+	line-height: 24px;
+}
+.mtop_40{
+	margin-top: 40px;
+}
+/*gateway end*/
+
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+.s_blog{
+	margin-top: 60px;
+	width: 47%;
+	float: left;
+}
+.s_blog:nth-child(even) {
+    margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 20px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog end*/
+
+/*newsletter start*/
+.newsletter{
+	min-height: 300px;
+	background-color: #f0f0f0;
+	padding: 70px 0;
+	text-align: center;
+}
+.title{
+	margin: 15px 0 25px;
+	font-size: 35px;
+}
+.sign_form{
+   width: 300px;
+   position: relative;
+   margin: 0 auto;
+}
+.sign_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: #626262;
+	width: 300px;
+	height: 45px;
+	border:none;
+	border-bottom: 1px solid #000000;
+	padding-left: 5px;
+	padding-right: 45px;
+	background: transparent;
+
+}
+.sign_form button{
+	position: absolute;
+	background: transparent;
+	cursor: pointer;
+	border: none;
+	top: 15px;
+	right: 0;
+}
+
+/*newsletter end*/
+
+/*blog2 start*/
+.blog2{
+	padding-top: 40px;
+}
+.load{
+	margin: 100px 0;
+	text-align: center;
+}
+.load button{
+	width: 185px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .33s;
+}
+
+.load button:hover{
+	background-color: #626262;
+	color: white;
+
+}
+/*blog2 end*/
+
+/*footer start*/
+.footer{
+	padding-bottom: 50px;
+	background-color:#f0f0f0;;
+}
+.new{
+	width: 100%;
+	height: 100px;
+	background-color: #f0f0f0;
+}
+.page{
+	margin-top: 10px;
+}
+
+.page ul {
+	list-style: none;
+	float: left;
+}
+.page ul li {
+	float: left;
+}
+
+.page ul li a{
+	text-decoration: none;
+	display: block;
+	margin: 15px;
+	color: #000000;
+}
+
+.media{
+	width: 45%;
+	float: right;
+}
+
+.media ul {
+	float: right;
+	list-style: none;
+}
+
+.media ul li{
+	margin: 17px;
+	float: left;
+}
+.media ul li a img{
+	width: 100%;
+}
+
+
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
